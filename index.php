@@ -38,7 +38,8 @@ function lister($chemin)
    closedir($pointeur);
 }
 lister(__DIR__);
-die();
+lister(__DIR__.'/application');
+//die();
 
 
 
