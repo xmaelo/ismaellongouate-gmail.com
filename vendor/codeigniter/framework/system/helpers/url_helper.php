@@ -100,7 +100,7 @@ if ( ! function_exists('current_url'))
 	 *
 	 * @return	string
 	 */
-	function current_url()
+	function current_url() 
 	{
 		$CI =& get_instance();
 		return $CI->config->site_url($CI->uri->uri_string());
@@ -561,7 +561,7 @@ if ( ! function_exists('redirect'))
 				header('Refresh:0;url='.$uri); 
 				break;
 			default:
-				//header('Location: '.$uri, TRUE, $code);
+				header('Location: '.$uri, TRUE, $code);
 				break;
 		}
 		exit;
