@@ -294,12 +294,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/InvoicePlane/mpdf.git",
+                "url": "https://github.com/mpdf/mpdf.git",
                 "reference": "a2b78b767a7b99bc1b878ab51407770050bb1ea3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InvoicePlane/mpdf/zipball/a2b78b767a7b99bc1b878ab51407770050bb1ea3",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/a2b78b767a7b99bc1b878ab51407770050bb1ea3",
                 "reference": "a2b78b767a7b99bc1b878ab51407770050bb1ea3",
                 "shasum": ""
             },
@@ -356,7 +356,7 @@
                 "php",
                 "utf-8"
             ],
-            "time": "2019-12-31T17:41:03+00:00"
+            "time": "2020-05-25T09:08:39+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2016,16 +2016,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.1.4",
+            "version": "v6.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "c5e61d0729507049cec9673aa1a679f9adefd683"
+                "reference": "c2796cb1cb99d7717290b48c4e6f32cb6c60b7b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c5e61d0729507049cec9673aa1a679f9adefd683",
-                "reference": "c5e61d0729507049cec9673aa1a679f9adefd683",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/c2796cb1cb99d7717290b48c4e6f32cb6c60b7b3",
+                "reference": "c2796cb1cb99d7717290b48c4e6f32cb6c60b7b3",
                 "shasum": ""
             },
             "require": {
@@ -2074,7 +2074,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2019-12-10T11:17:38+00:00"
+            "time": "2020-05-27T12:24:03+00:00"
         },
         {
             "name": "psr/log",
@@ -2260,6 +2260,7 @@
                 "fpdi",
                 "pdf"
             ],
+            "abandoned": true,
             "time": "2019-01-30T14:38:19+00:00"
         },
         {
